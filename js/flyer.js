@@ -30,19 +30,19 @@ var ky = 500;
 var ketc_vel = -30;
 
 var clouds = new Image();
-clouds.src = '/static/flyer/images/clouds.jpg';
+clouds.src = '/images/clouds.jpg';
 var background = new Image();
-background.src = '/static/flyer/images/background.png';
+background.src = '/images/background.png';
 var midground = new Image();
-midground.src = '/static/flyer/images/midground.png';
+midground.src = '/images/midground.png';
 var foreground = new Image();
-foreground.src = '/static/flyer/images/foreground.png';
+foreground.src = '/images/foreground.png';
 var player = new Image();
-player.src = '/static/flyer/images/player.png';
+player.src = '/images/player.png';
 var ketchup = new Image();
-ketchup.src = '/static/flyer/images/ketchup.png';
+ketchup.src = '/images/ketchup.png';
 var pickle = new Image();
-pickle.src = '/static/flyer/images/pickle.png';
+pickle.src = '/images/pickle.png';
 
 window.addEventListener( 'load', start);
 window.addEventListener( "keypress", (event) => {
